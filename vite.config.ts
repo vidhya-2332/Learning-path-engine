@@ -4,6 +4,7 @@ import { fileURLToPath, URL } from 'node:url';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/Learning-path-engine/',
   plugins: [react()],
   resolve: {
     alias: {
